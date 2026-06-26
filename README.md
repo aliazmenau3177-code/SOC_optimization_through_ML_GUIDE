@@ -79,6 +79,11 @@ import warnings
 
 warnings.filterwarnings("ignore")
 
+the processing/ computation requirement for running this code are as follows:-
+1. one processor machine with at least 4 cores
+2. minimum 16 GB of RAM
+3. pycharm (installed on UBUNTU)
+
 # Methodology 
 The processes executed on the original Microsfot GUIDE Dataset to achieve its pre-processed, Machine Learning ready version, are enumerated as follows: -
 
