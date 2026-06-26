@@ -94,6 +94,8 @@ The processes executed on the original Microsfot GUIDE Dataset to achieve its pr
 5. Feature engineering
    a. Temporal feature engineering - transforming raw timestamp into time of day & day of week format in order to be utilized within the ML process
    b. MITRE feature engineering - multi valued MITRE ATT&CK technique string converted into numerical indicators basing on counts of various techniques occuring.
-6. One hot encoding - converting all categorical variables into binary numerical vectors 
+6. One hot encoding - converting all categorical variables into binary numerical vectors
+
+7. after achieving the pre-processed version of GUIDE dataset the algorithms speicifed within out research paper are executed on it. the results alongwith analytical graphs are shown through the same code. 
 
 
