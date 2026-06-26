@@ -50,18 +50,13 @@ However we have utilized pycharm for the said purpose. The code contains followi
 17. execution of shuffle sanity test
     
 # Method of Access, Usage Instructions and Loading of Data
-the subject dataset i.e Microsoft GUIDE can be downloaded from 
-The subject Data sub set is in CSV format with a size of 3.48 GB and having 796 columns. 
-Since such a large dataset cannot be uploaded directly therefore it has been placed on google drive and a link has been placed within this repository. 
-The access is open for this database with a view to facilitate researches across the globe in making their efforts for achieving a better, more optimized and automated SOC. 
-
+The subject dataset i.e Microsoft GUIDE can be downloaded from the link https://www.kaggle.com/datasets/Microsoft/microsoft-security-incident-prediction. 
+the said dataset is large in size and its utilization within the code depends on your processing resources. you can also take a selected well balanced subset of entire Microsoft GUIDE to execute and test our alogrithms. A sample subset used by us is available of this link. https://drive.google.com/file/d/1NTa6pRXkCLhJL3oW_tn-Mq2u2yNfHZNo/view?usp=sharing 
+anyone can access this link and download the zipfile containing a well balanced subset of Microsoft GUIDE dataset, suitable enough for utilizing within our python code. 
 ## Method of Access - Dataset Link
-The pre-processed dataset can be accessed and downloaded through this link: https://drive.google.com/file/d/1lOPmmG2cnZX3ORvevhEH1Ypo5jxCnIrJ/view?usp=drive_link
-The downloaded version of dataset has large number of fields and therefore cannot be previewed by normal worksheet softwares such as excel. It is recommended to download it and utilize within the python script. 
-Moreover the zipped version of the dataset is also available on the link https://drive.google.com/file/d/1rKx3uOlaeg_nVVVAm1Xm6Q7gaRBSOrr6/view?usp=drive_link 
-
+The sample subset used by our team is available on the link https://drive.google.com/file/d/1NTa6pRXkCLhJL3oW_tn-Mq2u2yNfHZNo/view?usp=sharing 
 ## Loading of Data
-Any researcher who desires to utilize this pre-processed dataset version of Microsoft GUIDE, may download it to his specific folder, from hwere he can upload it into any of his python program by adding the following command within his script :-
+Any researcher who desires to utilize this  dataset version of Microsoft GUIDE, may download it to his specific folder, from where he can upload it into any of his python program by adding the following command within his script :-
 
 DATA_PATH = "/(path to the folder location where the downloaded dataset is stored)/processed_GUIDE.csv"
 
@@ -72,10 +67,9 @@ print("Dataset Shape:", df.shape)
 print(df['IncidentGrade'].value_counts())
 
 ## Usage Instructions
-The aspirant researchers may ingest this pre-processed dataset within their python programms and execute their designed ML algorithms on it directly, without having to go through the hassle of exectuing feature engineering processes on it again. 
-
+once the dataset has been placed in the desired folder and correct path has been specified within the given code, the code can be executed within the IDE environment. In our case we have executed it within Pycharm. the code will automatically carry out all steps specified within the code information above and provide you with results. 
 # Requirements
-In order to upload and tulize the data within python scripts, the specific python libraries requried can be called wtihin the script as follows: -
+In order to upload and utilize the data within python scripts, the specific python libraries requried can be called wtihin the script as follows: -
 
 import pandas as pd
 
