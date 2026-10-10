@@ -1,4 +1,4 @@
-# Title: ML Model of Optimizing SOC through Big Data Analysis, DM and ML
+# Title: SOC_Optimization through ML - Microsoft GUIDE Dataset
 
 Reproducible code for the paper *"An ensemble machine learning framework for reducing false positives in security operations centers using big data analytics"* (PeerJ Computer Science).
 
